@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UTS PRAK WEB : Gilbert HASIHOLAN</title>
+        <link rel="stylesheet" type="text/css" href="styleUTS.css">
+    </head>
+    <body>
+        <div class="judul">
+            <h1>Pendaftaran</h1>
+        </div>
+
+          <table div class="table1">
+              <tr>
+                <th class="th1">Username :  </th>
+                <td class="td1"><input type="text" id="uname" name="uname"  ><br></td>
+              </tr>
+              <tr>
+                <th class="th1">First Name :    </th>
+                <td class="td1"><input type="text" id="fname" name="fname"  ><br></td>
+              </tr>
+              <tr>
+                <th class="th1">Last Name :     </th>
+                <td class="td1"><input type="text" id="lname" name="lname"  ><br></td>
+              </tr>
+              <tr>
+                <th class="th1">Gender :    </th>
+                <td class="td1">
+                  <input type="radio" id="male" name="gender">
+                  <label for="male">Male</label>
+                  <br>
+        
+                  <input type="radio" id="female" name="gender">
+                  <label for="female">Female</label>
+                  <br>
+        
+                  <input type="radio" id="other" name="gender">
+                  <label for="other">Other</label>
+                  <br>
+                </td>
+                </tr> 
+                <tr>
+                  <th class="th1">Password :    </th>
+                  <td class="td1"><input type="password" id="pwd" name="pwd" minlength="5"><br></td>
+                </tr>
+                <tr>
+                  <th class="th1">Retype Password :    </th>
+                  <td class="td1"><input type="password" id="repwd" name="repwd" minlength="5"><br></td>
+                </tr>
+                <tr>
+                  <th class="th1">Age :     </th>
+                  <td class="td1"><input type="number" id="age" name="age" min="17"></td>
+                </tr>
+                <tr>
+                  <td colspan="2" class="td1">
+                    <button id="save-button">Save</button>
+                  </td>
+                </tr>
+          </table>
+        </div>
+        
+        <br><br><br>
+
+        <table id="tabelkosong" class="tabelkosong">
+          <tr>
+            <th >Full Name</th>
+            <th >Gender</th>
+            <th >Age</th>
+          </tr>
+        </table>
+
+        <script src="UTS_PRAKWEB_2010511140.js"></script>
+    </body>
+</html>
